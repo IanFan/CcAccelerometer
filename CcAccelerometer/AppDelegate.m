@@ -77,7 +77,7 @@
 
 	
 	// Create a Navigation Controller with the Director
-	navController_ = [[UINavigationController alloc] initWithRootViewController:director_];
+	navController_ = [[NavigationController alloc] initWithRootViewController:director_];
 	navController_.navigationBarHidden = YES;
 	
 	// set the Navigation Controller as the root view controller
@@ -89,13 +89,6 @@
 	
 	return YES;
 }
-
-// Supported orientations: Landscape. Customize it for your own needs
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-	return UIInterfaceOrientationIsLandscape(interfaceOrientation);
-}
-
 
 // getting a call, pause the game
 -(void) applicationWillResignActive:(UIApplication *)application

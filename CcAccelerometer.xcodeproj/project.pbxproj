@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1818D143168C1B23005EE572 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818D142168C1B23005EE572 /* NavigationController.m */; };
 		18C2C5A4168BE63700D5199C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C5A3168BE63700D5199C /* QuartzCore.framework */; };
 		18C2C5A6168BE63700D5199C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C5A5168BE63700D5199C /* OpenGLES.framework */; };
 		18C2C5A8168BE63700D5199C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C2C5A7168BE63700D5199C /* OpenAL.framework */; };
@@ -131,11 +132,16 @@
 		18C2C727168BE63900D5199C /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 18C2C726168BE63900D5199C /* vec4.c */; };
 		18C2C72C168BE63900D5199C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2C72B168BE63900D5199C /* main.m */; };
 		18C2C72F168BE63900D5199C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2C72E168BE63900D5199C /* AppDelegate.m */; };
-		18C2C732168BE63900D5199C /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2C731168BE63900D5199C /* HelloWorldLayer.m */; };
 		18C2C735168BE63900D5199C /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2C734168BE63900D5199C /* IntroLayer.m */; };
+		18C2CC60168C0B0300D5199C /* Accelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2CC5F168C0B0300D5199C /* Accelerometer.m */; };
+		18C2CC63168C0B5900D5199C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2CC62168C0B5900D5199C /* Default-568h@2x.png */; };
+		18C2CC66168C0DE500D5199C /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2CC64168C0DE500D5199C /* ball.png */; };
+		18C2CC67168C0DE500D5199C /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18C2CC65168C0DE500D5199C /* ball@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1818D141168C1B23005EE572 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		1818D142168C1B23005EE572 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		18C2C59F168BE63700D5199C /* CcAccelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CcAccelerometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C2C5A3168BE63700D5199C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		18C2C5A5168BE63700D5199C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -394,10 +400,13 @@
 		18C2C72B168BE63900D5199C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18C2C72D168BE63900D5199C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18C2C72E168BE63900D5199C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18C2C730168BE63900D5199C /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		18C2C731168BE63900D5199C /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		18C2C733168BE63900D5199C /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		18C2C734168BE63900D5199C /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		18C2CC5E168C0B0300D5199C /* Accelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accelerometer.h; sourceTree = "<group>"; };
+		18C2CC5F168C0B0300D5199C /* Accelerometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Accelerometer.m; sourceTree = "<group>"; };
+		18C2CC62168C0B5900D5199C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18C2CC64168C0DE500D5199C /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		18C2CC65168C0DE500D5199C /* ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -458,10 +467,13 @@
 			children = (
 				18C2C72D168BE63900D5199C /* AppDelegate.h */,
 				18C2C72E168BE63900D5199C /* AppDelegate.m */,
-				18C2C730168BE63900D5199C /* HelloWorldLayer.h */,
-				18C2C731168BE63900D5199C /* HelloWorldLayer.m */,
+				1818D141168C1B23005EE572 /* NavigationController.h */,
+				1818D142168C1B23005EE572 /* NavigationController.m */,
 				18C2C733168BE63900D5199C /* IntroLayer.h */,
 				18C2C734168BE63900D5199C /* IntroLayer.m */,
+				18C2CC5E168C0B0300D5199C /* Accelerometer.h */,
+				18C2CC5F168C0B0300D5199C /* Accelerometer.m */,
+				18C2CC68168C0DE900D5199C /* MyResources */,
 				18C2C5B6168BE63700D5199C /* Resources */,
 				18C2C5D0168BE63700D5199C /* libs */,
 				18C2C729168BE63900D5199C /* Supporting Files */,
@@ -472,6 +484,7 @@
 		18C2C5B6168BE63700D5199C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				18C2CC62168C0B5900D5199C /* Default-568h@2x.png */,
 				18C2C5B7168BE63700D5199C /* Default.png */,
 				18C2C5B9168BE63700D5199C /* Default-Landscape~ipad.png */,
 				18C2C5BB168BE63700D5199C /* fps_images.png */,
@@ -832,6 +845,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		18C2CC68168C0DE900D5199C /* MyResources */ = {
+			isa = PBXGroup;
+			children = (
+				18C2CC69168C0DF100D5199C /* Image */,
+				18C2CC6A168C0DF600D5199C /* Image@2x */,
+			);
+			name = MyResources;
+			sourceTree = "<group>";
+		};
+		18C2CC69168C0DF100D5199C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				18C2CC64168C0DE500D5199C /* ball.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		18C2CC6A168C0DF600D5199C /* Image@2x */ = {
+			isa = PBXGroup;
+			children = (
+				18C2CC65168C0DE500D5199C /* ball@2x.png */,
+			);
+			name = "Image@2x";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -895,6 +933,9 @@
 				18C2C5CC168BE63700D5199C /* Icon@2x.png in Resources */,
 				18C2C5CF168BE63700D5199C /* iTunesArtwork in Resources */,
 				18C2C70D168BE63900D5199C /* ChangeLog in Resources */,
+				18C2CC63168C0B5900D5199C /* Default-568h@2x.png in Resources */,
+				18C2CC66168C0DE500D5199C /* ball.png in Resources */,
+				18C2CC67168C0DE500D5199C /* ball@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1007,8 +1048,9 @@
 				18C2C727168BE63900D5199C /* vec4.c in Sources */,
 				18C2C72C168BE63900D5199C /* main.m in Sources */,
 				18C2C72F168BE63900D5199C /* AppDelegate.m in Sources */,
-				18C2C732168BE63900D5199C /* HelloWorldLayer.m in Sources */,
 				18C2C735168BE63900D5199C /* IntroLayer.m in Sources */,
+				18C2CC60168C0B0300D5199C /* Accelerometer.m in Sources */,
+				1818D143168C1B23005EE572 /* NavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1112,6 +1154,7 @@
 				18C2C73A168BE63900D5199C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
