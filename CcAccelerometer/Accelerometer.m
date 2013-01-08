@@ -72,10 +72,11 @@
       break;
   }
   
-  if (playerVelocity.x >= 0) playerVelocity.x = MIN(playerVelocity.x,maxVelocity);
-  else playerVelocity.x = MAX(playerVelocity.x,-maxVelocity);
-  if (playerVelocity.y >= 0) playerVelocity.y = MIN(playerVelocity.y,maxVelocity);
-  else playerVelocity.y = MAX(playerVelocity.y,-maxVelocity);
+  if (playerVelocity.x > maxVelocity) playerVelocity.x = maxVelocity;
+  else if (playerVelocity.x < -maxVelocity) playerVelocity.x = -maxVelocity;
+  
+  if (playerVelocity.y > maxVelocity) playerVelocity.y = maxVelocity;
+  else if (playerVelocity.y < -maxVelocity) playerVelocity.y = -maxVelocity;
 }
 
 #pragma mark -
